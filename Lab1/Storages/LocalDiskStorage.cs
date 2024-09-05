@@ -28,6 +28,6 @@ public class LocalDiskStorage : IStorage
 
     public byte[] LoadFile(string fileName)
     {
-        return new byte[] { 0x00, 0x01, 0x02, 0x03 };
+        return new byte[] { 0x00, 0x01, 0x02, 0x03 }; //plug
     }
 }
