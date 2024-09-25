@@ -2,9 +2,9 @@ using Lab2.Networks;
 
 namespace Lab2.Factories;
 
-public class FacebookFactory : SocialNetworkFactory
+public class FacebookFactory : ISocialNetworkFactory
 {
-    public override ISocialNetwork CreateSocialNetwork()
+    public ISocialNetwork CreateSocialNetwork()
     {
         return new Facebook();
     }
